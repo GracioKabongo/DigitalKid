@@ -11,7 +11,7 @@
     <meta name="author" content="">
 
     <!-- Page Title -->
-    <title>Urho - Creative Studio HTML Template</title>
+    <title>Digital Kids</title>
 
     <!-- Theme Color -->
     <meta name="theme-color" content="#ffffff">
@@ -29,7 +29,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     
     <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
 
     <style>
@@ -37,7 +37,24 @@
         color: #ffffff; /* Código hexadecimal para a cor branca */
       }
     </style>
+    <style>
+      /* Estilos padrão para todas as telas */
+  .person img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+  } 
 
+  /* Estilos para telas menores que 768px (ajuste conforme necessário) */
+  @media (max-width: 768px) {
+    .person img { 
+      max-width: 350px; /* Ajuste o tamanho desejado para telas menores */
+      max-height: 350px; /* Ajuste o tamanho desejado para telas menores */
+    }
+  }
+    </style> 
+ 
   </head>
 
   <body>
@@ -105,9 +122,12 @@
                       <div class="carousel-caption text-center text-lg-start">
                         <span class="d-block text-uppercase" data-aos="fade-right">Digital Kids</span>
                         <h1 class="text-white my-4" data-aos="fade-right" data-aos-delay="150">É um programa que visa ajudar crianças a se enquadrar no mundo da tecnologia e das novas tendências digitais.</h1>
-                        <p class="pb-3 pb-lg-4" data-aos="fade-right" data-aos-delay="300" style="font-size: 1.1em;">Este programa é feito especialmente para crianças que desejam explorar a criatividade e exercitar a mente com alguns métodos educacionais digitais</p>
+                        <p class="pb-3 pb-lg-4" data-aos="fade-right" data-aos-delay="300" style="font-size: 1.1em;">Junte-se a nós nesta jornada emocionante, onde a imaginação se torna realidade e cada clique é um passo em direção a um futuro digital brilhante. Na Digital Kids, estamos moldando o amanhã, uma linha de código de cada vez.</p>
                         <a href="about.html" class="btn btn-lg btn-white" data-aos="fade-right" data-aos-delay="450">Ler mais</a>
                       </div>
+                    </div>
+                    <div class="col-12 col-sm-9 col-lg-6 align-self-end carousel__img" data-aos="fade-left">
+                      <img src="images/VrCriança3.png" class="d-block" alt="">
                     </div>
                     <div class="col-12 col-sm-9 col-lg-6 align-self-end carousel__img" data-aos="fade-left">
                       <!-- <img src="images/home/study-pupil-education-svgrepo-com.svg" class="d-block" alt=""> -->
@@ -116,25 +136,7 @@
                 </div>
               </div>
 
-              <!-- Slider Two -->
-              <div class="carousel-item">
-                <div class="container-fluid">
-                  <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-sm-9 col-lg-5 pb-5">
-                      <div class="carousel-caption text-center text-lg-start">
-                        <span class="text-uppercase">Business solutions</span>
-                        <h1 class="text-white my-4">Advertisements Created with Love</h1>
-                        <p class="pb-5 pb-lg-4">In the field of advertising, we carry out projects related to visual advertising and company branding. We develop advertising banners, signs, light boxes...</p>
-                        <a href="about.html" class="btn btn-lg btn-white">Ler mais</a>
-                      </div>
-                    </div>
-                    <div class="col-12 col-sm-9 col-lg-6 align-self-end carousel__img">
-                      <!-- <img src="images/home/senior-man-playing-a-computer-inspiration-svgrepo-com.svg" class="d-block" alt=""> -->
-                      <img src="images/home/study-pupil-education-svgrepo-com.svg" class="d-block" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </section>
@@ -145,17 +147,16 @@
             <div class="row justify-content-center justify-content-xl-between">
               <div class="col-xl-4 d-none d-xl-block position-relative" data-aos="fade-up">
                 <div class="about-images">
-                  <img src="images/home/study-student-svgrepo-com.svg" class="w-100" alt="" loading="lazy">
-                  <img src="images/home/internet-connection-contact-svgrepo-com.svg" class="w-100 position-absolute" alt="" loading="lazy">
+                  <img src="images/about/about-placeholder-01.jpg" class="w-100" alt="">
+                  <img src="FotosSelecionadas/Digitalkids-5.jpg" class="w-100 position-absolute" alt="" loading="lazy"> 
                   <!-- <div class="imagem"></div> -->
                 </div>
               </div>
               <div class="col-10 col-sm-8 col-md-12 col-xl-6">
                 <div class="mb-5 mb-xl-0 mb-xxl-5 pb-xl-4" data-aos="fade-up">
-                  <span class="subheader">Sobre nós</span>
+                  
                   <h2 class="display-3 mb-xxl-5">Sobre a nossa instituição</h2>
-                  <p class="urho-lead-20">O Launch a Kid é um mini-programa de 12 semanas que visa a introdução de crianças ao mundo digital focando em temas de computação básica e intermediaria baseada em princípios
-                    de programação infantil com recursos de fácil percepção e manuseamento.<br>
+                  <p class="urho-lead-20">Bem-vindo/a à Digital Kids, onde sonhos se entrelaçam com códigos e a imaginação ganha vida! Somos mais do que uma empresa; somos uma família dedicada a nutrir a curiosidade e a criatividade das crianças no vasto universo digital.<br>
                     <h1>O que se espera</h1>
                 
                   </p>
@@ -164,14 +165,14 @@
                 <div class="row justify-content-md-between about-boxes">
                   <div class="col-12 col-md-6 mb-5 mb-xl-0" data-aos="fade-up">
                     <div class="about__box mb-xxl-5">
-                      <img src="images/icons/computer-svgrepo-com.svg" alt="">
+                      <img src="images/icons/computer-svgrepo-com (1).svg" alt="">
                       <span class="urho-title-24 py-3 py-xxl-4">Conceitos de computação</span>
                       <!-- <p class="urho-lead-18">We only have the latest tools made available by producers of creative products and programs.</p> -->
                     </div>
                   </div>
                   <div class="col-12 col-md-6 mb-5 mb-xl-0" data-aos="fade-up">
                     <div class="about__box mb-xxl-5">
-                      <img src="images/icons/web-development-svgrepo-com.svg" alt="">
+                      <img src="images/icons/programming-monitor-svgrepo-com.svg" alt="">
                       <span class="urho-title-24 py-3 py-xxl-4">Logica de programação</span>
                       <!-- <p class="urho-lead-18">We will create a brand image for you on the Internet, but also in the real world in the form of advertising.</p> -->
                     </div>
@@ -254,6 +255,117 @@
           </div>
         </section>                    
 
+        <!-- Testimonials -->
+        <section class="testimonials section-padding">
+          <div class="container text-center">             
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="FotosSelecionadas/IMG_1692.JPG" class="w-100" alt="" loading="lazy" style="max-width: 900px;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="FotosSelecionadas/Digitalkids-56.jpg" class="w-100" alt="" loading="lazy" style="max-width: 900px;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="FotosSelecionadas/Digitalkids-54.jpg" class="w-100" alt="" loading="lazy" style="max-width: 900px;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="FotosSelecionadas/Digitalkids-100.jpg" class="w-100" alt="" loading="lazy" style="max-width: 900px;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="FotosSelecionadas/Digitalkids-67.jpg" class="w-100" alt="" loading="lazy" style="max-width: 900px;">
+                </div>
+                <div class="swiper-slide">
+                  <img src="FotosSelecionadas/IMG_1636.JPG" class="w-100" alt="" loading="lazy" style="max-width: 900px;">
+                </div>
+              </div>
+              
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </section> 
+        
+        <section class="statistics ">
+          <div class="container">
+              <div class="row align-items-center justify-content-center justify-content-xl-between text-center text-md-start">
+                  <div class="col-12 col-lg-8 col-xl-6">
+                      
+                      <h4 class="display-2 lh-1 pb-xl-5">Nossa missão</h4>
+                      <p class="urho-lead-20 pb-4 pb-xl-5">Nossa missão é simples, mas poderosa: aproximar as crianças do mundo digital de uma maneira divertida e educativa. Desde os primeiros passos na programação até a criação de jogos encantadores, queremos inspirar uma paixão duradoura pela tecnologia, enquanto cultivamos habilidades essenciais para o futuro.</p>
+                      
+
+                      <div class="counters">
+                          <div class="row gy-3 justify-content-center">
+                              
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="position-relative d-none d-xl-flex col-xl-6 col-xxl-5 statistics-img justify-content-end">
+                      
+                      <img src="images/IMG_7347.PNG" class="imagem-moldura" alt="">
+                      
+                      <div class="check-icon position-absolute d-flex align-items-center justify-content-center">
+                          <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M8.15146 17.6465L0.351457 9.80163C-0.117152 9.33032 -0.117152 8.56616 0.351457 8.0948L2.04847 6.38798C2.51708 5.91663 3.27693 5.91663 3.74554 6.38798L9 11.6726L20.2545 0.353478C20.7231 -0.117826 21.4829 -0.117826 21.9515 0.353478L23.6485 2.0603C24.1172 2.5316 24.1172 3.29577 23.6485 3.76712L9.84853 17.6465C9.37987 18.1178 8.62007 18.1178 8.15146 17.6465Z" fill="white" />
+                          </svg>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="posts "> 
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 order-md-1"> <!-- Mudei a ordem para 'order-md-1' para colocar à esquerda em telas médias e acima -->
+              <div class="post">
+                <div class="video-image">
+                  <!-- Adicionado o atributo autoplay="false" e allowautoplay="false" -->
+                  <iframe src="https://www.youtube.com/embed/LDZYODW3BQg?mute=1&controls=0&showinfo=0&autohide=1" allow="fullscreen; picture-in-picture" allowfullscreen autoplay="false" allowautoplay="false" width="100%" height="460"></iframe>
+                </div>
+                <!-- Fim do vídeo --> 
+                <!-- Removido o botão de play -->
+                <div class="post-details">
+                  <span>By Digital Kids</span>
+                  <!-- Outros detalhes do post aqui -->
+                </div>
+              </div>
+            </div>
+            <!-- Aside (seção à direita) -->
+            <aside class="col-md-4 order-md-2"> <!-- Mudei a ordem para 'order-md-2' para colocar à direita em telas médias e acima -->
+              
+              
+              <div class="tags">
+                <span class="urho-title-24 mb-4">Tags Populares</span>
+                  <a href="#0">Programação para Crianças</a>
+                  <a href="#0">Desenvolvimento de Jogos</a>
+                  <a href="#0">Aprendizado Digital</a>
+                  <a href="#0">Educação Tecnológica</a>
+                  <a href="#0">Crianças e Tecnologia</a>                  
+                  <a href="#0">Aventuras Digitais</a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      
+        <!-- Video (overlay) -->
+        <div class="video-player-overlay">
+          <div class="video-player-popup">
+            <!-- Modificado o tamanho do vídeo e removido o botão de play -->
+            <iframe src="https://www.youtube.com/embed/LDZYODW3BQg?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1" allow="fullscreen; picture-in-picture" allowfullscreen width="100%" height="360"></iframe>
+            <!-- Fim do vídeo -->
+            <!-- Removido o botão de play -->
+          </div>
+        </div>
+      </section>
+      
+      
+
+        
+
         <!-- Solutions -->
         <section class="solutions">
           <div class="container-fluid text-center text-xl-start">
@@ -261,25 +373,143 @@
               <div class="col-12 col-xl-6 col-xxl-6">
                 <div class="solutions-description ms-auto">
                   <span class="subheader">Veja agora</span>
-                  <h4 class="display-3 mb-5 mb-xl-5">Sobre os nossos serviços</h4>
+                  <h4 class="display-3 ">Sobre os nossos serviços</h4>
                  
 
-                  <p class="urho-lead-18 mb-4"><span class="py-4 urho-title-24">Aulas em Regime Online</span>As aulas onlines serão lecionadas 
-                    através da plataforma Zoom.
-                  </p>                  
+                  <p class="urho-lead-18 mb-4"><span class="py-4 urho-title-24">Aulas em Regime Online e Duração</span>-As aulas onlines serão lecionadas 
+                    através da plataforma Zoom. <br>
+                    -O Launch a Kid terá a duração de 12 semanas com 
+                            aulas aos sábados com duração de 2h.
+                  </p>
+                                     
                   <!-- <p class="urho-lead-18 mb-5">We have already completed over 400 designs of websites and online stores. This is the number that allowed us not only to gain vast experience in the design and coding of websites and mobile applications.</p> -->
                   <a href="services-01.html" class="btn btn-indigo btn-lg">Ver mais</a>
                 </div>
               </div>
               <div class="col-12 col-xl-6 col-xxl-6">
-                <img src="images/backgrounds/triangle.svg" class="w-100" alt="" loading="lazy">
+                <img src="FotosSelecionadas/Digitalkids-28.jpg" class="w-100" alt="" loading="lazy">
               </div>
             </div>
           </div>
-        </section>
+        </section>       
 
-
-        
+        <!-- Team -->
+    <section class="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <span class="subheader">Os nossos Profissionais</span>
+            <h4 class="display-3 pb-4 pb-x1-5">Conheça a equipe</h4>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-xl-3 person-container">
+              <div class="person">
+                <img src="images/Elisa.jpg" class="w-100" alt="">
+                <div class="person__description d-flex flex-column align-items-center justify-content-center">
+                  <span class="urho-title-24 pb-1">Elisa da Conceição</span>
+                  <span class="urho-lead-18 pb-5">Founder and CEO</span>
+                  <div class="d-flex justify-content-around person__description-social-icon">
+                    <a href="#0">
+                      <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.47575 9L7.8906 6.10437H5.29677V4.22531C5.29677 3.43313 5.65911 2.66094 6.8208 2.66094H8V0.195625C8 0.195625 6.92991 0 5.90679 0C3.7707 0 2.37444 1.38688 2.37444 3.8975V6.10437H0V9H2.37444V16H5.29677V9H7.47575Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                    <a href="#0">
+                      <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1498 3.98749C16.1612 4.16248 16.1612 4.33751 16.1612 4.5125C16.1612 9.84997 12.4493 16 5.665 16C3.57488 16 1.63326 15.3375 0 14.1875C0.296966 14.225 0.582471 14.2375 0.890863 14.2375C2.61546 14.2375 4.20305 13.6 5.47083 12.5125C3.84899 12.475 2.48985 11.3125 2.02156 9.7125C2.25001 9.74997 2.47842 9.77498 2.71829 9.77498C3.0495 9.77498 3.38074 9.72496 3.6891 9.63751C1.99875 9.26248 0.730937 7.63749 0.730937 5.67499V5.62501C1.22204 5.92501 1.79315 6.11251 2.39844 6.13748C1.40478 5.41247 0.753788 4.17498 0.753788 2.77497C0.753788 2.02499 0.936496 1.33749 1.25631 0.737481C3.07232 3.18748 5.80203 4.78745 8.86293 4.96248C8.80583 4.66248 8.77155 4.35001 8.77155 4.03751C8.77155 1.81248 10.4162 0 12.4607 0C13.5228 0 14.4822 0.487499 15.1561 1.275C15.9898 1.10001 16.7893 0.762491 17.4975 0.300002C17.2233 1.23752 16.6409 2.02502 15.8756 2.52499C16.618 2.43753 17.3376 2.21248 18 1.90001C17.4975 2.69998 16.8693 3.41245 16.1498 3.98749Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                    <a href="#0">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.00178 3.8978C5.73162 3.8978 3.9005 5.72933 3.9005 8C3.9005 10.2707 5.73162 12.1022 8.00178 12.1022C10.2719 12.1022 12.1031 10.2707 12.1031 8C12.1031 5.72933 10.2719 3.8978 8.00178 3.8978ZM8.00178 10.667C6.53475 10.667 5.33541 9.47094 5.33541 8C5.33541 6.52906 6.53118 5.33304 8.00178 5.33304C9.47239 5.33304 10.6682 6.52906 10.6682 8C10.6682 9.47094 9.46882 10.667 8.00178 10.667ZM13.2274 3.73C13.2274 4.26197 12.7991 4.68682 12.2708 4.68682C11.739 4.68682 11.3142 4.2584 11.3142 3.73C11.3142 3.20161 11.7426 2.77318 12.2708 2.77318C12.7991 2.77318 13.2274 3.20161 13.2274 3.73ZM15.9438 4.7011C15.8831 3.41939 15.5904 2.28406 14.6516 1.34866C13.7165 0.413254 12.5814 0.120495 11.2999 0.0562312C9.97925 -0.0187437 6.02075 -0.0187437 4.70006 0.0562312C3.4222 0.116925 2.28712 0.409684 1.34835 1.34509C0.409593 2.28049 0.120468 3.41582 0.0562186 4.69753C-0.0187395 6.01852 -0.0187395 9.97791 0.0562186 11.2989C0.116899 12.5806 0.409593 13.7159 1.34835 14.6513C2.28712 15.5867 3.41863 15.8795 4.70006 15.9438C6.02075 16.0187 9.97925 16.0187 11.2999 15.9438C12.5814 15.8831 13.7165 15.5903 14.6516 14.6513C15.5868 13.7159 15.8795 12.5806 15.9438 11.2989C16.0187 9.97791 16.0187 6.02209 15.9438 4.7011ZM14.2376 12.7163C13.9592 13.416 13.4202 13.9551 12.717 14.2372C11.664 14.6549 9.16542 14.5585 8.00178 14.5585C6.83815 14.5585 4.33597 14.6513 3.28656 14.2372C2.58695 13.9587 2.04796 13.4196 1.76598 12.7163C1.34835 11.6631 1.44473 9.1639 1.44473 8C1.44473 6.8361 1.35192 4.33337 1.76598 3.28372C2.04439 2.58396 2.58338 2.04485 3.28656 1.7628C4.33954 1.34509 6.83815 1.44148 8.00178 1.44148C9.16542 1.44148 11.6676 1.34866 12.717 1.7628C13.4166 2.04128 13.9556 2.58039 14.2376 3.28372C14.6552 4.33694 14.5588 6.8361 14.5588 8C14.5588 9.1639 14.6552 11.6666 14.2376 12.7163Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 person-container">
+              <div class="person">
+                <img src="images/Siro Magalhães .jpg" class="w-100" alt="">
+                <div class="person__description d-flex flex-column align-items-center justify-content-center">
+                  <span class="urho-title-24 pb-1">Siro Magalhães</span>
+                  <span class="urho-lead-18 pb-5">CO-Founder</span>
+                  <div class="d-flex justify-content-around person__description-social-icon">
+                    <a href="#0">
+                      <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.47575 9L7.8906 6.10437H5.29677V4.22531C5.29677 3.43313 5.65911 2.66094 6.8208 2.66094H8V0.195625C8 0.195625 6.92991 0 5.90679 0C3.7707 0 2.37444 1.38688 2.37444 3.8975V6.10437H0V9H2.37444V16H5.29677V9H7.47575Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                    <a href="#0">
+                      <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1498 3.98749C16.1612 4.16248 16.1612 4.33751 16.1612 4.5125C16.1612 9.84997 12.4493 16 5.665 16C3.57488 16 1.63326 15.3375 0 14.1875C0.296966 14.225 0.582471 14.2375 0.890863 14.2375C2.61546 14.2375 4.20305 13.6 5.47083 12.5125C3.84899 12.475 2.48985 11.3125 2.02156 9.7125C2.25001 9.74997 2.47842 9.77498 2.71829 9.77498C3.0495 9.77498 3.38074 9.72496 3.6891 9.63751C1.99875 9.26248 0.730937 7.63749 0.730937 5.67499V5.62501C1.22204 5.92501 1.79315 6.11251 2.39844 6.13748C1.40478 5.41247 0.753788 4.17498 0.753788 2.77497C0.753788 2.02499 0.936496 1.33749 1.25631 0.737481C3.07232 3.18748 5.80203 4.78745 8.86293 4.96248C8.80583 4.66248 8.77155 4.35001 8.77155 4.03751C8.77155 1.81248 10.4162 0 12.4607 0C13.5228 0 14.4822 0.487499 15.1561 1.275C15.9898 1.10001 16.7893 0.762491 17.4975 0.300002C17.2233 1.23752 16.6409 2.02502 15.8756 2.52499C16.618 2.43753 17.3376 2.21248 18 1.90001C17.4975 2.69998 16.8693 3.41245 16.1498 3.98749Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                    <a href="#0">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.00178 3.8978C5.73162 3.8978 3.9005 5.72933 3.9005 8C3.9005 10.2707 5.73162 12.1022 8.00178 12.1022C10.2719 12.1022 12.1031 10.2707 12.1031 8C12.1031 5.72933 10.2719 3.8978 8.00178 3.8978ZM8.00178 10.667C6.53475 10.667 5.33541 9.47094 5.33541 8C5.33541 6.52906 6.53118 5.33304 8.00178 5.33304C9.47239 5.33304 10.6682 6.52906 10.6682 8C10.6682 9.47094 9.46882 10.667 8.00178 10.667ZM13.2274 3.73C13.2274 4.26197 12.7991 4.68682 12.2708 4.68682C11.739 4.68682 11.3142 4.2584 11.3142 3.73C11.3142 3.20161 11.7426 2.77318 12.2708 2.77318C12.7991 2.77318 13.2274 3.20161 13.2274 3.73ZM15.9438 4.7011C15.8831 3.41939 15.5904 2.28406 14.6516 1.34866C13.7165 0.413254 12.5814 0.120495 11.2999 0.0562312C9.97925 -0.0187437 6.02075 -0.0187437 4.70006 0.0562312C3.4222 0.116925 2.28712 0.409684 1.34835 1.34509C0.409593 2.28049 0.120468 3.41582 0.0562186 4.69753C-0.0187395 6.01852 -0.0187395 9.97791 0.0562186 11.2989C0.116899 12.5806 0.409593 13.7159 1.34835 14.6513C2.28712 15.5867 3.41863 15.8795 4.70006 15.9438C6.02075 16.0187 9.97925 16.0187 11.2999 15.9438C12.5814 15.8831 13.7165 15.5903 14.6516 14.6513C15.5868 13.7159 15.8795 12.5806 15.9438 11.2989C16.0187 9.97791 16.0187 6.02209 15.9438 4.7011ZM14.2376 12.7163C13.9592 13.416 13.4202 13.9551 12.717 14.2372C11.664 14.6549 9.16542 14.5585 8.00178 14.5585C6.83815 14.5585 4.33597 14.6513 3.28656 14.2372C2.58695 13.9587 2.04796 13.4196 1.76598 12.7163C1.34835 11.6631 1.44473 9.1639 1.44473 8C1.44473 6.8361 1.35192 4.33337 1.76598 3.28372C2.04439 2.58396 2.58338 2.04485 3.28656 1.7628C4.33954 1.34509 6.83815 1.44148 8.00178 1.44148C9.16542 1.44148 11.6676 1.34866 12.717 1.7628C13.4166 2.04128 13.9556 2.58039 14.2376 3.28372C14.6552 4.33694 14.5588 6.8361 14.5588 8C14.5588 9.1639 14.6552 11.6666 14.2376 12.7163Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 person-container">
+              <div class="person">
+                <img src="images/Ross Magalhães.jpg" class="w-100" alt="">
+                <div class="person__description d-flex flex-column align-items-center justify-content-center">
+                  <span class="urho-title-24 pb-1">Ross Magalhães</span>
+                  <span class="urho-lead-18 pb-5">Marketing Manager</span> 
+                  <div class="d-flex justify-content-around person__description-social-icon">
+                    <a href="#0">
+                      <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.47575 9L7.8906 6.10437H5.29677V4.22531C5.29677 3.43313 5.65911 2.66094 6.8208 2.66094H8V0.195625C8 0.195625 6.92991 0 5.90679 0C3.7707 0 2.37444 1.38688 2.37444 3.8975V6.10437H0V9H2.37444V16H5.29677V9H7.47575Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                    <a href="#0">
+                      <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1498 3.98749C16.1612 4.16248 16.1612 4.33751 16.1612 4.5125C16.1612 9.84997 12.4493 16 5.665 16C3.57488 16 1.63326 15.3375 0 14.1875C0.296966 14.225 0.582471 14.2375 0.890863 14.2375C2.61546 14.2375 4.20305 13.6 5.47083 12.5125C3.84899 12.475 2.48985 11.3125 2.02156 9.7125C2.25001 9.74997 2.47842 9.77498 2.71829 9.77498C3.0495 9.77498 3.38074 9.72496 3.6891 9.63751C1.99875 9.26248 0.730937 7.63749 0.730937 5.67499V5.62501C1.22204 5.92501 1.79315 6.11251 2.39844 6.13748C1.40478 5.41247 0.753788 4.17498 0.753788 2.77497C0.753788 2.02499 0.936496 1.33749 1.25631 0.737481C3.07232 3.18748 5.80203 4.78745 8.86293 4.96248C8.80583 4.66248 8.77155 4.35001 8.77155 4.03751C8.77155 1.81248 10.4162 0 12.4607 0C13.5228 0 14.4822 0.487499 15.1561 1.275C15.9898 1.10001 16.7893 0.762491 17.4975 0.300002C17.2233 1.23752 16.6409 2.02502 15.8756 2.52499C16.618 2.43753 17.3376 2.21248 18 1.90001C17.4975 2.69998 16.8693 3.41245 16.1498 3.98749Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                    <a href="#0">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.00178 3.8978C5.73162 3.8978 3.9005 5.72933 3.9005 8C3.9005 10.2707 5.73162 12.1022 8.00178 12.1022C10.2719 12.1022 12.1031 10.2707 12.1031 8C12.1031 5.72933 10.2719 3.8978 8.00178 3.8978ZM8.00178 10.667C6.53475 10.667 5.33541 9.47094 5.33541 8C5.33541 6.52906 6.53118 5.33304 8.00178 5.33304C9.47239 5.33304 10.6682 6.52906 10.6682 8C10.6682 9.47094 9.46882 10.667 8.00178 10.667ZM13.2274 3.73C13.2274 4.26197 12.7991 4.68682 12.2708 4.68682C11.739 4.68682 11.3142 4.2584 11.3142 3.73C11.3142 3.20161 11.7426 2.77318 12.2708 2.77318C12.7991 2.77318 13.2274 3.20161 13.2274 3.73ZM15.9438 4.7011C15.8831 3.41939 15.5904 2.28406 14.6516 1.34866C13.7165 0.413254 12.5814 0.120495 11.2999 0.0562312C9.97925 -0.0187437 6.02075 -0.0187437 4.70006 0.0562312C3.4222 0.116925 2.28712 0.409684 1.34835 1.34509C0.409593 2.28049 0.120468 3.41582 0.0562186 4.69753C-0.0187395 6.01852 -0.0187395 9.97791 0.0562186 11.2989C0.116899 12.5806 0.409593 13.7159 1.34835 14.6513C2.28712 15.5867 3.41863 15.8795 4.70006 15.9438C6.02075 16.0187 9.97925 16.0187 11.2999 15.9438C12.5814 15.8831 13.7165 15.5903 14.6516 14.6513C15.5868 13.7159 15.8795 12.5806 15.9438 11.2989C16.0187 9.97791 16.0187 6.02209 15.9438 4.7011ZM14.2376 12.7163C13.9592 13.416 13.4202 13.9551 12.717 14.2372C11.664 14.6549 9.16542 14.5585 8.00178 14.5585C6.83815 14.5585 4.33597 14.6513 3.28656 14.2372C2.58695 13.9587 2.04796 13.4196 1.76598 12.7163C1.34835 11.6631 1.44473 9.1639 1.44473 8C1.44473 6.8361 1.35192 4.33337 1.76598 3.28372C2.04439 2.58396 2.58338 2.04485 3.28656 1.7628C4.33954 1.34509 6.83815 1.44148 8.00178 1.44148C9.16542 1.44148 11.6676 1.34866 12.717 1.7628C13.4166 2.04128 13.9556 2.58039 14.2376 3.28372C14.6552 4.33694 14.5588 6.8361 14.5588 8C14.5588 9.1639 14.6552 11.6666 14.2376 12.7163Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 person-container">
+              <div class="person">
+                <img src="images/Felicidade Maia.jpg" class="w-100" alt="">
+                <div class="person__description d-flex flex-column align-items-center justify-content-center">
+                  <span class="urho-title-24 pb-1">Wak’Oleva Felicidade Maia</span>
+                  <span class="urho-lead-18 pb-5">Manager</span> 
+                  <div class="d-flex justify-content-around person__description-social-icon">
+                    <a href="#0">
+                      <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.47575 9L7.8906 6.10437H5.29677V4.22531C5.29677 3.43313 5.65911 2.66094 6.8208 2.66094H8V0.195625C8 0.195625 6.92991 0 5.90679 0C3.7707 0 2.37444 1.38688 2.37444 3.8975V6.10437H0V9H2.37444V16H5.29677V9H7.47575Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                    <a href="#0">
+                      <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1498 3.98749C16.1612 4.16248 16.1612 4.33751 16.1612 4.5125C16.1612 9.84997 12.4493 16 5.665 16C3.57488 16 1.63326 15.3375 0 14.1875C0.296966 14.225 0.582471 14.2375 0.890863 14.2375C2.61546 14.2375 4.20305 13.6 5.47083 12.5125C3.84899 12.475 2.48985 11.3125 2.02156 9.7125C2.25001 9.74997 2.47842 9.77498 2.71829 9.77498C3.0495 9.77498 3.38074 9.72496 3.6891 9.63751C1.99875 9.26248 0.730937 7.63749 0.730937 5.67499V5.62501C1.22204 5.92501 1.79315 6.11251 2.39844 6.13748C1.40478 5.41247 0.753788 4.17498 0.753788 2.77497C0.753788 2.02499 0.936496 1.33749 1.25631 0.737481C3.07232 3.18748 5.80203 4.78745 8.86293 4.96248C8.80583 4.66248 8.77155 4.35001 8.77155 4.03751C8.77155 1.81248 10.4162 0 12.4607 0C13.5228 0 14.4822 0.487499 15.1561 1.275C15.9898 1.10001 16.7893 0.762491 17.4975 0.300002C17.2233 1.23752 16.6409 2.02502 15.8756 2.52499C16.618 2.43753 17.3376 2.21248 18 1.90001C17.4975 2.69998 16.8693 3.41245 16.1498 3.98749Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                    <a href="#0">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.00178 3.8978C5.73162 3.8978 3.9005 5.72933 3.9005 8C3.9005 10.2707 5.73162 12.1022 8.00178 12.1022C10.2719 12.1022 12.1031 10.2707 12.1031 8C12.1031 5.72933 10.2719 3.8978 8.00178 3.8978ZM8.00178 10.667C6.53475 10.667 5.33541 9.47094 5.33541 8C5.33541 6.52906 6.53118 5.33304 8.00178 5.33304C9.47239 5.33304 10.6682 6.52906 10.6682 8C10.6682 9.47094 9.46882 10.667 8.00178 10.667ZM13.2274 3.73C13.2274 4.26197 12.7991 4.68682 12.2708 4.68682C11.739 4.68682 11.3142 4.2584 11.3142 3.73C11.3142 3.20161 11.7426 2.77318 12.2708 2.77318C12.7991 2.77318 13.2274 3.20161 13.2274 3.73ZM15.9438 4.7011C15.8831 3.41939 15.5904 2.28406 14.6516 1.34866C13.7165 0.413254 12.5814 0.120495 11.2999 0.0562312C9.97925 -0.0187437 6.02075 -0.0187437 4.70006 0.0562312C3.4222 0.116925 2.28712 0.409684 1.34835 1.34509C0.409593 2.28049 0.120468 3.41582 0.0562186 4.69753C-0.0187395 6.01852 -0.0187395 9.97791 0.0562186 11.2989C0.116899 12.5806 0.409593 13.7159 1.34835 14.6513C2.28712 15.5867 3.41863 15.8795 4.70006 15.9438C6.02075 16.0187 9.97925 16.0187 11.2999 15.9438C12.5814 15.8831 13.7165 15.5903 14.6516 14.6513C15.5868 13.7159 15.8795 12.5806 15.9438 11.2989C16.0187 9.97791 16.0187 6.02209 15.9438 4.7011ZM14.2376 12.7163C13.9592 13.416 13.4202 13.9551 12.717 14.2372C11.664 14.6549 9.16542 14.5585 8.00178 14.5585C6.83815 14.5585 4.33597 14.6513 3.28656 14.2372C2.58695 13.9587 2.04796 13.4196 1.76598 12.7163C1.34835 11.6631 1.44473 9.1639 1.44473 8C1.44473 6.8361 1.35192 4.33337 1.76598 3.28372C2.04439 2.58396 2.58338 2.04485 3.28656 1.7628C4.33954 1.34509 6.83815 1.44148 8.00178 1.44148C9.16542 1.44148 11.6676 1.34866 12.717 1.7628C13.4166 2.04128 13.9556 2.58039 14.2376 3.28372C14.6552 4.33694 14.5588 6.8361 14.5588 8C14.5588 9.1639 14.6552 11.6666 14.2376 12.7163Z" fill="#3D5AFE" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
         <!-- Blog -->
         <!--<section class="blog section-padding">
@@ -365,10 +595,15 @@
       
             <div class="col-md-4">
               <span class="footer-title">Informação e contacto</span> 
-              <p><img src="images/icons/home.svg" alt=""> Maputo</p>
-              <p><img src="images/icons/envelope.svg" alt=""> <a href="mailto:urho@example.com">http://www.indicodigitalview@gmail.com</a></p>
-              <p><img src="images/icons/phone.svg" alt=""> <a href="tel:+258827920090">+258 827920090</a></p>
+              <p class="d-flex align-items-center" style="margin-left: 110px;"><img src="images/icons/home.svg" alt=""> - Maputo</p>
+              <p class="d-flex align-items-center" style="margin-left: 110px;"><img src="images/icons/envelope.svg" alt=""> <a href="http://www.indicodigitalview@gmail.com">-indicodigitalview@gmail.com</a></p>
+              <p class="d-flex align-items-center" style="margin-left: 110px;"><img src="images/icons/phone.svg" alt=""> <a href="tel:+258827920090">+258 82 792 0090</a></p>
+              <p class="d-flex align-items-center" style="margin-left: 110px;"><img src="images/icons/phone.svg" alt=""> <a href="tel:+258827920090">+258 84 216 0860</a></p>
             </div>
+             
+              
+            
+            
       
             <div class="col-md-4">
               <span class="footer-title">Navegação</span>
@@ -389,7 +624,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/glightbox.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 
     <script>
@@ -399,7 +634,30 @@
       appGlightbox();
       appBrandsSwiper();
       appTestimonialsSwiper();
-    </script>  
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var mySwiper = new Swiper('.swiper', {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          autoplay: {
+            delay: 5000,
+          },
+          speed: 800,
+          effect: 'slide',
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {   // Adicione esta opção para a paginação
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          loop: true,
+        });
+      });
+    </script> 
+    
   </body>
   
 </html>
