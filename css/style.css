@@ -9,18 +9,19 @@
     color: orange !important;
 }
 
+
  /* Exemplo de configuração de cor de texto (pode ser ajustado conforme necessário) */
 .features h3,
 .features ul {
     color: #eb9411 !important; /* Cor do texto (por exemplo, preto) */ 
 }
 
-.imagem-moldura {
-    width: 123%; /* Defina a largura desejada para a moldura */
-    height: 123%; /* Defina a altura desejada para a moldura */
+.imagem-moldura {  
+    width: 118%; /* Defina a largura desejada para a moldura */
+    height: 118%; /* Defina a altura desejada para a moldura */
     object-fit: cover; /* Ajusta a imagem para cobrir todo o contêiner, mantendo a proporção */
 } 
-
+ 
 .nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
